@@ -1,5 +1,6 @@
 {% set name = "dpkt" %}
 {% set version = "1.9.2" %}
+{% set sha256 = "52a92ecd5ca04d5bd852bb11cb2eac4bbe38b42a7c472e0d950eeb9f82a81e54" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 52a92ecd5ca04d5bd852bb11cb2eac4bbe38b42a7c472e0d950eeb9f82a81e54
+  sha256: {{ sha256 }}
 
 build:
   noarch: python
@@ -36,7 +37,3 @@ about:
     and is implemented in pure python
   doc_url: https://dpkt.readthedocs.io
   dev_url: http://github.com/kbandla/dpkt
-
-extra:
-  recipe-maintainers:
-    - kylekeppler
