@@ -5,7 +5,7 @@ Home: http://github.com/kbandla/dpkt
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: fast, simple packet creation / parsing, with definitions for the basic TCP/IP protocols
 
