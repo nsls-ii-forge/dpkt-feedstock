@@ -24,7 +24,7 @@ requirements:
 
 test:
   imports:
-    - {{ name }}
+    - dpkt
 
 about:
   home: http://github.com/kbandla/dpkt
