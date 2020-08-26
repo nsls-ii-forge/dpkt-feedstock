@@ -1,6 +1,6 @@
 {% set name = "dpkt" %}
-{% set version = "1.9.2" %}
-{% set sha256 = "52a92ecd5ca04d5bd852bb11cb2eac4bbe38b42a7c472e0d950eeb9f82a81e54" %}
+{% set version = "1.9.3" %}
+{% set sha256 = "6f577e4a5f730fe12f127f18924aee17863af75efcba259fb0a5cd7fbb554ca2" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -24,14 +24,14 @@ requirements:
 
 test:
   imports:
-    - {{ name }}
+    - dpkt
 
 about:
   home: http://github.com/kbandla/dpkt
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: 'fast, simple packet creation / parsing, with definitions for the basic TCP/IP protocols'
+  summary: fast, simple packet creation / parsing, with definitions for the basic TCP/IP protocols
   description: |
     dpkt is a simple packet creation / parsing, with definitions for the basic TCP/IP protocols
     and is implemented in pure python
