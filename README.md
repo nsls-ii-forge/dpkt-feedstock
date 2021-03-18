@@ -5,9 +5,13 @@ Home: http://github.com/kbandla/dpkt
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/nsls-ii-forge/dpkt-feedstock/blob/master/LICENSE.txt)
 
 Summary: fast, simple packet creation / parsing, with definitions for the basic TCP/IP protocols
+
+Development: http://github.com/kbandla/dpkt
+
+Documentation: https://dpkt.readthedocs.io
 
 dpkt is a simple packet creation / parsing, with definitions for the basic TCP/IP protocols
 and is implemented in pure python
@@ -74,9 +78,9 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers
