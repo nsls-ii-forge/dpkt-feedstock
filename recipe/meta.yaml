@@ -1,6 +1,6 @@
 {% set name = "dpkt" %}
-{% set version = "1.9.5" %}
-{% set sha256 = "141cab4defcb4ead83e664765ebb045f55dbe73e17d617acafd6eaf368d7c55e" %}
+{% set version = "1.9.6" %}
+{% set sha256 = "b5737010fd420d142e02ed04fa616edd1fc05e414980baef594f72287c875eef" %}
 
 package:
   name: {{ name|lower }}
